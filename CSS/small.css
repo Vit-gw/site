@@ -1,0 +1,8 @@
+/* для маленьких экранов до 420 */
+@media (max-width:576px) {
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+    }
+    

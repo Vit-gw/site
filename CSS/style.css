@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #09606b;
+}
+body{
+    font-family: "Roboto Condensed" , Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    line-height: 24px;
+    color: black;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* header если заливки на сайте сверху нет, то и не нужно! */
+.header{
+    background: lightgrey;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    margin: 0 0.4vw;
+}
+.menu a{
+    color: #000;
+    font-style: 24px;
+    font-family: "Roboto Condensed" , Arial, Helvetica, sans-serif;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact a{
+    color:inherit;
+    font-style: 24px;
+    font-family: "Roboto Condensed" , Arial, Helvetica, sans-serif;
+}
+.hamb-menu{
+    display: none;
+}
+/* promo */
+.promo{
+    background: #ddd url(727602348\ 1.png) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.promo-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    align-items: flex-start;
+}
+.promo h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+
+}
+
+.promo h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+.btn-cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 20px;
+    background: #DBC2AC;
+    border-radius: 50px;   
+}
