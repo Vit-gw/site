@@ -2,7 +2,8 @@
 @media (max-width: 768px) {
     .container{
         width: 100%;
-        /* min-width: 275px; */
+        padding: 0 1vw;
+        min-width: 275px;
         margin: 0 auto;
     }
     .header-inner{
@@ -67,5 +68,30 @@
     .contact{
         margin-right: 55px;
     }
-
+    .promo h1{
+    max-width: 760px;
+    width: auto;
+    font-size: 2rem;
+    line-height: 2 rem;
+    }
+    .promo h3{
+        font-style: 1.2rem;
+        line-height: 1.4rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .btn-cta{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 40px;
+        gap: 20px;
+        background: #DBC2AC;
+        border-radius: 50px;   
+        height: 40px;
+        line-height: 40px;
+        font-size: 1.1rem;
+        margin-top: 1.4rem; 
+    }
 }

@@ -4,5 +4,17 @@
     width: 100%;
     margin: 0 auto;
 }
+.btn-cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 20px;
+    background: #DBC2AC;
+    border-radius: 50px;   
+    width: 90%;
+    margin: 0 auto;
+}
     }
     
